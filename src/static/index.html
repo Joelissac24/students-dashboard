@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+    </head>
+    <title>
+        Attendance Application
+    </title>
+    <body background="blue.jpg">
+        <div id = "main">
+        <button id ="button">Students Details </button><br>
+        <button id ="button2">Teachers Details</button><br>
+        <button id ="button3">Mapping Details</button><br>
+        <button id ="button4">Attendance Details</button><br>
+        </div>
+        <div id="mydiv">   
+            <button id="btn">Add Details</button>
+                <form id="addform" onsubmit="return add(this)">    
+                    Name:<input type="text" id="name"><br>
+                    Age: <input type="number" id="age"><br>
+                    <input type="submit" value="register">
+                </form>
+            <button id="btn2">Show Details</button>
+                <form id="showform" onsubmit = "return show(this)">
+                    Student ID: <input type="number" id ="id"><br>
+                    <input type="submit" value="Enter">
+                </form>
+            <button id="btn3">Edit Details</button>
+                <form id="editform" onsubmit="return edit(this)">
+                    Name:<input type="text" id="name2"><br>
+                    Age: <input type="number" id="age2"><br>
+                    Replace data with: <input type="number" id="id2"><br>
+                    <input type ="submit" value="Edit">
+                </form>
+            <button id="btn4">Delete Detail</button>
+            <form id="deleteform" onsubmit="return del(this)">
+                
+                Enter the Id :<input type="number" id ="id3"><br>
+                <input type="submit" value="Delete">
+            </form> 
+            <button id="btn5">Show Students Details</button>
+        </div>
+        <div id="mydiv2">
+            <button id="tbtn1">Add Teacher Details</button>
+            <form id="addform2" onsubmit="return addteacher(this)">
+                Teacher ID: <input type="number" id="tid"><br>
+                Name:<input type="text" id="tname"><br>
+                <input type="submit" value="Enter">            
+            </form>
+            <button id ="tbtn2">Show Teacher Detail</button>
+            <form id ="showform2" onsubmit="return showteacher(this)">
+                Enter Teacher ID : <input id="tid2" type ="number"><br>
+                <input type ="submit" value="Enter">
+            </form>
+            <button id="tbtn3">Edit Teacher Detail</button>
+            <form id="editform2" onsubmit="return editteacher(this)">
+                Name:<input type="text" id="tname2"><br>
+                Teacher Id:<input type="text" id="rid"><br>
+                <input type="submit" value="Edit">
+            </form>
+            <button id="tbtn4">Delete Detail</button>
+            <form id="deleteform2" onsubmit="return deleteteacher(this)">
+                Teacher ID:<input type="text" id="tid3"><br>
+                <input type="submit" value="delete">
+            </form>
+            <button id="tbtn5">List Teacher Details</button>
+        </div> 
+        <div id="mydiv3">
+            <button id="mbtn1">Add Mapping</button>
+            <form id="addform3" onsubmit="return addmapping(this)">
+                Enter Teacher ID:<input type="number" id="mid"><br>
+                Enter Student ID: <input type="number " id="mid2"><br>
+                <input type="submit" value="Add">
+            </form>
+            <button id ="mbtn2">Show Mapping </button>
+            <form id="showform3" onsubmit="return showmapping(this)">
+                Teacher ID:<input type="number" id="mid3"><br>
+                <input type="submit" value="Show">
+            </form>
+            <button id="mbtn3">Edit Mapping</button>
+            <form id="editform3" onsubmit="return editmapping(this)">
+                Teacher ID:<input type="number" id="mid4"><br>
+                New teacher ID:<input type="number" id="mid5"><br>
+                <input type="submit" value="Edit">
+            </form>
+            <button id="mbtn4">Delete Mapping</button>
+            <form id="deleteform3" onsubmit="return deletemapping(this)">
+                Enter Teacher ID: <input type="number" id="mid6"><br>
+                <input type="submit" value="delete">
+            </form>
+            <button id="mbtn5">list Mapping Detail</button>   
+            <!-- <span class="output"></span></p> -->
+        </div>
+        <div id="mydiv4">
+            <button id="abtn1">Add Attendance</button>
+            <form id="addform4" onsubmit="return addattendance(this)">
+                Student ID: <input type="number" id ="aid1"><br>                
+                Attendance :<select id="select1">
+                    <option value="p">Present</option>
+                    <option value="a">Absent</option>
+                </select><br>
+                <input type="submit" value="Add">
+            </form>
+            <button id="abtn2">Show Attendance</button>
+            <form id="showform4" onsubmit="return showattendance(this)">
+                Student Id : <input type="number" id="aid2"><br>
+                <input type="submit" value="show">
+            </form>
+            <button id="abtn3">Edit Attendance</button>
+            <form id="editform4" onsubmit="return editattendance(this)">
+                Student ID: <input type="number" id ="aid3"><br> 
+                Attendance :<select id="select2">
+                    <option value="p">Present</option>
+                    <option value="a">Absent</option>
+                </select><br>
+                <input type="submit" value="Edit">
+            </form>
+            <button id="abtn4">Delete Attendance</button>
+            <form id="deleteform4" onsubmit="return deleteattendance(this)">
+                Student ID: <input type="number" id="aid4"><br>
+                <input type="submit" value="Delete">
+            </form>       
+            <button id="abtn5">Show Attendance Record</button>    
+        </div>
+        <script type="text/javascript" src="validate.js" ></script>
+        <script type="text/javascript" src="index.js" ></script>
+        <div id="mbar"></div>  
+    </body>
+</html>

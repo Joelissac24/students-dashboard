@@ -1,0 +1,198 @@
+#mydiv{
+    display: none;
+    position: relative;
+    left: 350px;
+    font-style: italic;
+    font:bolder; 
+    white-space: pre-line;          
+}
+#addform{
+    display:none;
+    position:relative; 
+    white-space:pre-line;  
+    left:10px;
+    top:2px    
+}
+#showform{
+    position:relative;
+    white-space:pre-line;
+    display: none;
+    position:relative; 
+    left:10px;
+    top:2px
+    
+}
+#editform {
+    position:relative;
+    white-space:pre-line;  
+    display: none;
+    left:10px;
+    top:2px
+
+}
+#deleteform{
+    position: relative;
+    white-space:pre-line;  
+    display: none;
+    left:10px;
+    top:2px
+}
+
+#main {
+    position: fixed;
+    top: 60px;
+    font-size: medium;
+    font-style:italic;
+    font: bolder;
+    color:blue ;
+    white-space:pre-line;
+}
+#button {
+    color: aliceblue;
+    font-size:25px;
+    font-style:italic;
+    font: bolder;
+    background-color:black;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+}
+#button2 {
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-size:25px;
+    font-style:italic;
+    font: bolder;
+    background-color:black;
+    color: aliceblue;
+}
+#button3 {
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    font-style:italic;
+    font: bolder;
+    background-color:black;
+    color: aliceblue;
+}
+#button4 {
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    font-style:italic;
+    font: bolder;
+    background-color:black;
+    color: aliceblue;
+}
+
+#mydiv2 {
+    display: none;
+    position: relative;
+    left: 497px;
+    font-style: italic;
+    font:bolder; 
+    white-space: pre-line;
+}
+#addform2{
+    display: none;
+    position: relative;
+    left: 10px;
+}
+#showform2 {
+    display: none;
+    position: relative;
+    left: 10px;
+}
+#editform2 {
+    display: none;
+    position: relative;
+    left: 10px;
+}
+
+#deleteform2{
+    display: none;
+    position: relative;
+    left: 10px;
+}
+#mydiv3{
+    display: none;
+    position: relative;
+    left: 650px;
+    font-style: italic;
+    font:bolder; 
+    white-space: pre-line;
+}
+#addform3{
+    display: none;
+    position: relative;
+    left: 10px;
+    white-space: pre-line;
+}
+#showform3 {
+    display: none;
+    position: relative;
+    left: 10px;
+    white-space: pre-line;
+}
+#editform3 {
+    position: relative;
+    display: none;
+    left: 10px;
+    white-space: pre-line;
+}
+
+#deleteform3{
+    position: relative;
+    left: 10px;
+    display: none;
+    white-space: pre-line;
+}
+#mydiv4{
+    display: none;
+    position: relative;
+    left: 797px;
+    font-style: italic;
+    font:bolder; 
+    white-space: pre-line;
+}
+#addform4{
+    display: none;
+    position: relative;
+    left: 10px;
+    white-space: pre-line;
+}
+#showform4 {
+    display: none;
+    position: relative;
+    left: 10px;
+    white-space: pre-line;
+}
+#editform4 {
+    position: relative;
+    display: none;
+    left: 10px;
+    white-space: pre-line;
+}
+
+#deleteform4{
+    position: relative;
+    left: 10px;
+    display: none;
+    white-space: pre-line;
+}
+
+#mbar{
+    position: relative;
+    background-color:aliceblue;
+    left: 200px;
+    top:350px;
+    right: 10px;
+    color: blue;
+    font-size: large;
+    height: 200px;
+    width: 1000px;
+
+}
